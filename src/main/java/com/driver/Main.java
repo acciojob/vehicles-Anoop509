@@ -6,10 +6,8 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
+        Boat boat = new Boat("boat",50);
 
-
-
-
+        String nam = boat.getVehicleName();
     }
 }
-
